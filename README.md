@@ -1,19 +1,19 @@
 # minecraft
+```
 
-apt-get upgrade
-● apt-get update
-● apt install default-jre
-● apt install default-jdk
-● apt install software-properties-common
-● apt-get update
-● apt install screen
-● apt-get install net-tools
-● apt-get update
+apt-get update
+apt install default-jre
+apt install default-jdk
+apt install software-properties-common
+apt-get update
+apt install screen
+apt-get install net-tools
+apt-get update
+```
 
-
-Créer un nouveau répertoire qui s’appelle “/homr/TP01”
+Créer un nouveau répertoire qui s’appelle “/home/TP01”
 5) il faut ensuite installer le “Coeur” du serveur qui s’appelle un spigot, vous pouvez
-installer les dernière version ici et glissez le dans le fichier que vous avez créé [LINK] et
+installer les dernière version ici et glissez le dans le rep que vous avez créé [LINK] et
 renommer le nom du Spigot en “paper”
 6) créer un script qui s’appelle “start.sh” et son contenu : https://pastebin.com/B0n89HHJ
 7) Aller sur la machine et naviguer dans votre répertoire “TP01”
