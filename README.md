@@ -46,3 +46,71 @@ Pour jouer à minecraft sans payer le jeux, vous pouvez télécharger un launche
 https://tlauncher.org/en/ et le lancer et suivre les instructions. Pour vous connecter sur votre
 serveur, il faut juste aller dans “Multiplayer” et entrer l’adresse IP de votre machine sur
 “CONNEXION RAPIDE
+
+
+    1  sudo apt-get update
+    2  su sti2d
+    3  sudo apt-get update
+    4  exit
+    5  clear
+    6  sudo apt-get update
+    7  sudo apt-get install default-jre
+    8  sudo apt-get install default-jdk
+    9  sudo apt-get install software-properties-common 
+   10  sudo apt-get install screen
+   11  sudo apt-get install net-tools 
+   12  sudo mkdir /home/TP01
+   13  cd /home/TP01/
+   14  wget https://papermc.io/downloads
+   15  wget https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/336/downloads/paper-1.17.1-336.jar
+   16  sudo wget https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/336/downloads/paper-1.17.1-336.jar
+   17  ls
+   18  mv paper-1.17.1-336.jar paper
+   19  sudo mv paper-1.17.1-336.jar paper
+   20  ls
+   21  sudo nano start.sh
+   22  sudo cat start.sh
+   23  sudo chmod +x start.sh 
+   24  sudo sh  start.sh 
+   25  sudo mv paper paper.jar
+   26  sudo sh  start.sh 
+   27  java -version 
+   28  sudo add-apt-repository ppa:linuxuprising/java
+   29  sudo apt-get install oracle-java16-installer 
+   30  clear
+   31  wget https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html#license-lightbox
+   32  wget https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   33  ls
+   34  sudo dpkg -i jdk-16.0.1_linux-x64_bin.deb 
+   35  ls
+   36  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie"  https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   37  ls -l
+   38  sudo apt-get install lynx
+   39  lynx https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html
+   40  ls
+   41  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie"  https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   42  ifconfig
+   43  clear
+   44  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie"  https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   45  ls -l
+   46  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie"  https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   47  rm jdk-16.0.1_linux-x64_bin.deb 
+   48  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie"  https://download.oracle.com/otn/java/jdk/16.0.1%2B9/7147401fd7354114ac51ef3e1328291f/jdk-16.0.1_linux-x64_bin.deb
+   49* 
+   50  java -version
+   51  sudo dpkg -i jdk-16.0.1_linux-x64_bin.deb 
+   52  sudo apt-get install oracle-java16-installer 
+   53  sudo apt-get remove default-jre 
+   54  sudo apt-get remove default-jdk
+   55  java -version
+   56  javac -version
+   57  sudo apt-get install oracle-java16-set-default 
+   58  java -version
+   59  javac -version
+   60  cd /home/TP01/
+   61  sudo sh start.sh 
+   62  sudo nano eula.txt 
+   63  sudo nano server.properties 
+   64  sudo sh start.sh 
+   65  ifconfig
+   66  history
