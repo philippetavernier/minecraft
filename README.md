@@ -47,7 +47,7 @@ https://tlauncher.org/en/ et le lancer et suivre les instructions. Pour vous con
 serveur, il faut juste aller dans “Multiplayer” et entrer l’adresse IP de votre machine sur
 “CONNEXION RAPIDE
 
-
+```
     1  sudo apt-get update
     2  su sti2d
     3  sudo apt-get update
@@ -114,3 +114,4 @@ serveur, il faut juste aller dans “Multiplayer” et entrer l’adresse IP de 
    64  sudo sh start.sh 
    65  ifconfig
    66  history
+```
