@@ -11,6 +11,9 @@ apt-get install net-tools
 apt-get update
 ```
 
+JAVA 16
+https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html
+
 - Créer un nouveau répertoire qui s’appelle “/home/TP01”
 - il faut ensuite installer le “Coeur” du serveur qui s’appelle un spigot, vous pouvez
 - installer les dernière version ici et glissez le dans le rep que vous avez créé [paper](https://papermc.io/downloads#Paper-1.16)
