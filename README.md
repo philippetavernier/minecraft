@@ -20,8 +20,7 @@ renommer le nom du Spigot en “paper”
 ```
 cd /home/TP01/
 ```
-
-8) quand vous êtes dans le répertoire merci de faire cette commande : 
+quand vous êtes dans le répertoire merci de faire cette commande : 
 ```
  sh start.sh”
 ```
