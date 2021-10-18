@@ -13,7 +13,9 @@ apt-get update
 
 - Créer un nouveau répertoire qui s’appelle “/home/TP01”
 - il faut ensuite installer le “Coeur” du serveur qui s’appelle un spigot, vous pouvez
-- installer les dernière version ici et glissez le dans le rep que vous avez créé [paper](https://papermc.io/downloads#Paper-1.16) et
+- installer les dernière version ici et glissez le dans le rep que vous avez créé [paper](https://papermc.io/downloads#Paper-1.16)
+https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/336/downloads/paper-1.17.1-336.jar
+-   et
 renommer le nom du Spigot en “paper”
 - créer un script qui s’appelle “start.sh” et son contenu : https://pastebin.com/B0n89HHJ
 - Aller sur la machine et naviguer dans votre répertoire “TP01”
