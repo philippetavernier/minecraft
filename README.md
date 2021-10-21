@@ -4,6 +4,9 @@
 apt-get update
 #apt install default-jre
 #apt install default-jdk
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-get install oracle-java16-installer 
+sudo apt-get install oracle-java16-set-default 
 apt install software-properties-common
 #apt-get update
 apt install screen
@@ -11,12 +14,7 @@ apt-get install net-tools
 #apt-get update
 ```
 
-JAVA 16
-```
-wget --no-check-certificate -c --header  
-wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" 
-https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html
-```
+
 - Créer un nouveau répertoire qui s’appelle “/home/TP01”
 - il faut ensuite installer le “Coeur” du serveur qui s’appelle un spigot, vous pouvez
 - installer les dernière version ici et glissez le dans le rep que vous avez créé [paper](https://papermc.io/downloads#Paper-1.16)
@@ -47,6 +45,13 @@ https://tlauncher.org/en/ et le lancer et suivre les instructions. Pour vous con
 serveur, il faut juste aller dans “Multiplayer” et entrer l’adresse IP de votre machine sur
 “CONNEXION RAPIDE
 
+### history
+JAVA 16
+```
+wget --no-check-certificate -c --header  
+wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" 
+https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html
+```
 ```
    sudo mkdir /home/TP01
    cd /home/TP01
@@ -65,7 +70,7 @@ serveur, il faut juste aller dans “Multiplayer” et entrer l’adresse IP de 
    sudo dpkg -i jdk-16.0.1_linux-x64_bin.deb 
    
    sudo apt-get install oracle-java16-installer 
-   sudo apt-get install oracle-java16-set-default 
+
 
    sudo sh start.sh 
    sudo nano eula.txt 
