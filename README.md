@@ -14,7 +14,12 @@ apt-get install net-tools
 #apt-get update
 ```
 
-
+- verifier votre version de java
+   ```
+   java -version 
+   javac -version
+   ```   
+   
 - Créer un nouveau répertoire qui s’appelle “/home/TP01”
 - il faut ensuite installer le “Coeur” du serveur qui s’appelle un spigot, vous pouvez
 - installer les dernière version ici et glissez le dans le rep que vous avez créé [paper](https://papermc.io/downloads#Paper-1.16)
